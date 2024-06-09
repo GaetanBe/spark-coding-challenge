@@ -1,0 +1,54 @@
+# Scala and sbt
+*.class
+*.log
+*.cache
+*.project
+*.idea
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+target/
+project/target/
+project/project/
+lib_managed/
+src_managed/
+dist/
+tmp/
+out/
+.cache-main
+.scala_dependencies
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Metals and Bloop
+.bloop/
+.bsp/
+.metals/
+.metals/metals.sbt
+
+# Eclipse
+.build/
+.classpath
+.project
+.settings/
+.worksheet
+
+# MacOS
+.DS_Store
+
+# Spark specific
+spark-warehouse/
+derby.log
+
+# Other
+.history
